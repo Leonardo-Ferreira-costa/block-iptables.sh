@@ -5,7 +5,7 @@
 # Adaptação para pt-br: Leonardo F. Costa <www.difusao.tech>
 # -----------------------------------------------------------------------------
 
-#Inserir neste ponto os países que serão bloqueados, verificar na url: https://www.ipdeny.com/ipblocks
+#Inserir neste ponto os países que serão bloqueados, verificar na url: http://www.ipdeny.com/ipblocks
 ISO="ir ru af cn"
 ### Variáveis ​​para facilitar o uso do script que aponta para iptables, wget para baixar os arquivos da base de dados e egrep para selecionar o IP sem nenhum símbolo que iptables não possa interpretar ###
 
@@ -18,7 +18,7 @@ SPAMLIST="countrydrop"
 #Local da base de dados
 ZONEROOT="/root/iptables"
 #URL com os ips dos países
-DLROOT="https://www.ipdeny.com/ipblocks/data/countries"
+DLROOT="http://www.ipdeny.com/ipblocks/data/countries"
 #Funcao que vai limpar as configuracoes default do iptables
 
 cleanOldRules() {
